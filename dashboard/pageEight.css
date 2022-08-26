@@ -1,0 +1,31 @@
+#source_code {
+    background-image:
+        -webkit-linear-gradient(left, white 10px, transparent 10px),
+        -webkit-linear-gradient(right, white 10px, transparent 10px),
+        -webkit-linear-gradient(white 30px, lightgray 30px, lightgray 31px, white 31px);
+    background-image:
+        -moz-linear-gradient(left, white 10px, transparent 10px),
+        -moz-linear-gradient(right, white 10px, transparent 10px),
+        -moz-linear-gradient(white 30px, lightgray 30px, lightgray 31px, white 31px);
+    background-image:
+        linear-gradient(left, white 10px, transparent 10px),
+        linear-gradient(right, white 10px, transparent 10px),
+        linear-gradient(white 30px, lightgray 30px, lightgray 31px, white 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    border: 1px solid #000;
+    border-radius: 9px;
+    /*    box-shadow: inset -14em 0 99px 0 rgba(9, 99, 99, 0.5);*/
+    color: #000;
+    font-family: monospace !important;
+    height: 480px;
+    line-height: 31px;
+    /*    margin-left: 55px;*/
+    resize: none;
+    /* vertical; */
+    width: 100%;
+}
+
+#source_code::selection {
+    background: #aaa;
+    color: #002B36;
+}

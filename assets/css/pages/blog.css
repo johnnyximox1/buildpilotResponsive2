@@ -1,0 +1,248 @@
+/*section one*/
+/*section one*/
+.section1 {
+    background-size: cover;
+    background-repeat:
+        no-repeat;
+}
+.section2 {
+ -webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+    margin-top: -100px;
+    background: white;
+}
+.section1Blog {
+    margin-top: -90px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.paddingsetClippath {
+    margin-top: 50px;
+}
+.section1blogHeight {
+    min-height: 100vh;
+}
+
+.blogSeconeContent {
+ padding-left: 150px;
+}
+.blogSeconeContent p{
+font-size: 20px;
+}
+/*
+.blogsecOneImg img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+*/
+
+/*section two*/
+/*section two*/
+#section2Blog{
+    padding-top: 100px;
+}
+
+/*section three*/
+/*section three*/
+.section3  {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+
+}
+.section3BlogHeight {
+ min-height: 500px;
+}
+
+
+/*responsive */
+/*responsive */
+/*responsive */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 374.98px) {
+.blogSeconeContent {
+    padding-left: 0px;
+}
+  h2.large {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+    .section1Blog {
+    margin-top: 0px;
+}
+   .section1blogHeight {
+    min-height: 800px;
+    display: block;
+    padding-top: 100px;
+}
+    .section1Blog {
+    background-size: 350px;
+}
+    .blogSeconeContent p {
+    font-size: 16px;
+        padding-top: 10px;
+}
+.section2 {
+    -webkit-clip-path: none;
+    clip-path: none;
+    margin-top: 0;
+
+}
+    #section2Blog {
+    padding-top: 0px;
+}
+
+}
+@media (min-width: 375px) and (max-width: 575.98px) {
+.blogSeconeContent {
+    padding-left: 0px;
+}
+  h2.large {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+    .section1Blog {
+    margin-top: 0px;
+}
+   .section1blogHeight {
+    min-height: 750px;
+    display: block;
+    padding-top: 100px;
+}
+    .section1Blog {
+    background-size: 350px;
+}
+    .blogSeconeContent p {
+    font-size: 16px;
+        padding-top: 10px;
+}
+.section2 {
+    -webkit-clip-path: none;
+    clip-path: none;
+    margin-top: 0;
+
+}
+    #section2Blog {
+    padding-top: 0px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.blogSeconeContent {
+    padding-left: 0px;
+}
+  h2.large {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+    .section1Blog {
+    margin-top: 0px;
+}
+   .section1blogHeight {
+    min-height: 750px;
+    display: block;
+    padding-top: 100px;
+}
+    .section1Blog {
+    background-size: 350px;
+}
+    .blogSeconeContent p {
+    font-size: 16px;
+        padding-top: 10px;
+}
+.section2 {
+    -webkit-clip-path: none;
+    clip-path: none;
+    margin-top: 0;
+
+}
+    #section2Blog {
+    padding-top: 0px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.blogSeconeContent {
+    padding-left: 0px;
+}
+  h2.large {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+    .section1Blog {
+    margin-top: 0px;
+}
+   .section1blogHeight {
+    min-height: 750px;
+    display: block;
+    padding-top: 100px;
+}
+    .section1Blog {
+    background-size: 350px;
+}
+    .blogSeconeContent p {
+    font-size: 16px;
+        padding-top: 10px;
+}
+.section2 {
+    -webkit-clip-path: none;
+    clip-path: none;
+    margin-top: 0;
+
+}
+    #section2Blog {
+    padding-top: 0px;
+}
+h2 {
+    font-size: 27px;
+    margin-bottom: 0px;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.blogSeconeContent {
+    padding-left: 0px;
+}
+    .section1blogHeight {
+    min-height: 1000px;
+}
+    h2.large {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+    .blogSeconeContent p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+    .section1Blog {
+    margin-top: 0px;
+    background-size: 550px;
+
+}
+    .section2 {
+    -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+    margin-top: -100px;
+    background: white;
+}
+h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) (max-width: 1339.98px){
+
+}
+
+@media (min-width: 1200px) (max-width: 1339.98px){
+
+}
+

@@ -1,0 +1,295 @@
+.colorThemeYello {
+    color: #FFBD59;
+}
+
+.colorThemebgYello {
+    background: #FFBD59;
+}
+
+.fluidgap {
+    /*    padding: 0px 100px !important;*/
+}
+
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.v-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+h1.lite {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+h2.large {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.customButtonWhite {
+    color: #FFBD59;
+    background: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonWhite:hover {
+    background: #FFBD59;
+    color: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonYello {
+    background: #FFBD59;
+    color: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonYello:hover {
+    color: #FFBD59;
+    background: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonGreen {
+    background: #7ED957;
+    color: black;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.customButtonGreen:hover {
+    background: #FFBD59;
+    /*    color: ;*/
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+
+
+.container-fluid {
+    padding: 0px 100px !important;
+}
+
+
+/*blog inside */
+.blogInside {}
+
+
+.blogInside .content h5 {
+    font-size: 18px
+}
+
+.blogInside .content h6 {
+    font-size: 12px;
+    color: #48769C;
+
+}
+
+.blogInside .content .tags a {
+    font-size: 9px;
+    padding: 4px 3px;
+    border: 1px solid #EAECEF;
+    color: #8B909F;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 3px 0px;
+}
+
+.blogInside .content p {
+    font-size: 14px;
+    color: #8B909F;
+}
+
+.blogInside .content {}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 374.98px) {
+    .container-fluid {
+        padding: 0px 10px !important;
+    }
+
+    .customButtonYello {
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .customButtonWhite {
+
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .reverseSm {
+        flex-direction: column-reverse !important;
+    }
+
+    .buttonSubTextCancel {
+        color: #777E82;
+        font-size: 12px;
+    }
+
+    .fontSm13 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 575.98px) {
+     .container-fluid {
+        padding: 0px 10px !important;
+    }
+
+    .customButtonYello {
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .customButtonWhite {
+
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .reverseSm {
+        flex-direction: column-reverse !important;
+    }
+
+    .buttonSubTextCancel {
+        color: #777E82;
+        font-size: 12px;
+    }
+
+    .fontSm13 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+         .container-fluid {
+        padding: 0px 50px !important;
+    }
+
+    .customButtonYello {
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .customButtonWhite {
+
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .reverseSm {
+        flex-direction: column-reverse !important;
+    }
+
+    .buttonSubTextCancel {
+        color: #777E82;
+        font-size: 12px;
+    }
+
+    .fontSm13 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-fluid {
+    padding: 0px 15px !important;
+}
+    .section2imagesDiv img:first-child {
+
+}
+    .section2imagesDiv img {
+    width: 400px;
+
+}
+    h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) (max-width: 1339.98px){
+.container-fluid {
+    padding: 0px 50px !important;
+}
+
+    h2 {
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+}

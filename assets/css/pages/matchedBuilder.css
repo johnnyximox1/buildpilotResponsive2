@@ -1,0 +1,17 @@
+.section1MatchedBuilder{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+   
+    margin-top: -86px;
+}
+
+
+.section1 {
+      background-repeat: no-repeat !important;
+    background-position: 5% bottom, right bottom !important;
+}
+
+.section1MatchedBuilderHeight {
+    min-height: 100vh;
+}

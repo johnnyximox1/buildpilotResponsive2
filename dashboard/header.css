@@ -1,0 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navClass .navbar-brand img.logo {
+    width: 200px;
+}
+nav.navClass {
+ 
+    padding-top: 30px !important
+}
+.nav-link {
+    color: white;
+}

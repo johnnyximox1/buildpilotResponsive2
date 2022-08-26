@@ -1,0 +1,14 @@
+footer {
+    background: #FFBD59;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+}
+
+.footerContent .nav-item      a.nav-link {
+    color: white;
+    font-size: 18px;
+}
+.footerContent .nav-item      a.nav-link:hover {
+    color: black;
+
+}

@@ -1,0 +1,534 @@
+#section1Explore {
+/*    margin-top: -90px;*/
+
+}
+
+.exploreCustomCard {
+    padding-left: 50px;
+}
+
+.exploreCustomCard .card {
+    border: none;
+    background: none;
+}
+
+.exploreCustomCard .card .card-body h5 {
+    font-size: 16px;
+}
+
+.exploreCustomCard .card .card-body p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.section1ExploreHeight {
+    height: 100vh;
+}
+
+.section1exploreInput .input-group {
+    height: 50px;
+}
+
+.section1exploreInput .input-group .form-control {
+    border: 1px solid white;
+    height: 50px;
+}
+
+.section1exploreInput .input-group button {
+    border: 1px solid white;
+    color: white;
+}
+
+.section1Explore {
+    background-color: #FFBD59;
+    background-image: url(../../img/explore1sec.png);
+    background-position: left bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    /*    position: relative;*/
+}
+
+.exploremiddleClippath {
+-webkit-clip-path: polygon(0 4%, 100% 70%, 100% 100%, 0 100%);
+clip-path: polygon(0 4%, 100% 70%, 100% 100%, 0 100%);
+
+/*height: 100px;*/
+    background: white !important;
+    margin-top: -75px;
+}
+
+.section2explore {
+    background-image: url(../../img/explore/section2bg.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: left top;
+    margin-top: -100px;
+    position: relative;
+padding-bottom: 50px;
+}
+
+.expsection2left {
+    /*    padding-bottom: 20px;*/
+}
+
+.expsection2Right {
+    width: 300px;
+    text-align: center;
+}
+
+.expsection2Right h4 {
+    font-size: 16px;
+}
+
+.expsection2Right p {
+    font-size: 13px;
+}
+
+.section2explore .mobileCard .content h4 {
+    font-size: 16px;
+}
+
+.section2explore .mobileCard .content p {
+    font-size: 13px;
+}
+
+.expsection2Right .customButtonYello {
+    font-size: 12px;
+}
+
+
+.expsection2middle {}
+
+
+/*section three*/
+.section3ExploreHeight {
+    height: 350px;
+}
+.section3Explore{-webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);}
+
+
+
+#owl2 .owl-item img {
+    height: 50px;
+}
+
+#owl2 .owl-nav {
+    display: none;
+}
+
+/*section 4 */
+/*section 4 */
+
+.section4Explore{
+        background: #FFBD59;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    margin-top: -5px;
+}
+
+
+@media (max-width: 374.98px) {
+
+h1.lite {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+   .section1ExploreHeight {
+    height: 100% !important;
+}
+   .section1exploreInput .input-group .form-control {
+
+    font-size: 11px;
+}
+    .section1exploreInput .input-group button {
+
+    font-size: 12px;
+}
+    .exploreCustomCard {
+    padding-left: 0px;
+    padding-bottom: 300px;
+}
+    .exploreCustomCard img {
+        width: 150px;
+    }
+  .section2explore {
+    margin-top: 0;
+    background-position: 105% 0%;
+      background-size: 250%;
+}
+    .exploremiddleClippath {
+
+    margin-top: 0px;
+}
+    .mobileImgdiv {
+        text-align: center;
+    }
+    .mobileImgdiv img {
+width: 150px;
+    }
+    .expsection2Right {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+    .section3ExploreHeight {
+    height: 300px;
+}
+    .section4ExploreBottom {
+        padding-top: 50px;
+    }
+     .section4ExploreBottom img {
+    transform: scale(1.5);
+    position: relative;
+    right: -32%;
+    border-radius: 50px 0px;
+}
+
+.section1exploreInput .customInputbutton button {
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+}
+    .section1Explore {
+
+    background-size: 180%;
+
+}
+    .mobileCard {
+        padding-top: 50px;
+    }
+    .section4Explore  {
+        overflow: hidden;
+    }
+}
+@media (min-width: 375px) and (max-width: 575.98px) {
+
+h1.lite {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+   .section1ExploreHeight {
+    height: 100% !important;
+}
+   .section1exploreInput .input-group .form-control {
+
+    font-size: 11px;
+}
+    .section1exploreInput .input-group button {
+
+    font-size: 12px;
+}
+    .exploreCustomCard {
+    padding-left: 0px;
+    padding-bottom: 300px;
+}
+    .exploreCustomCard img {
+        width: 150px;
+    }
+  .section2explore {
+    margin-top: 0;
+    background-position: 105% 0%;
+      background-size: 250%;
+}
+    .exploremiddleClippath {
+
+    margin-top: 0px;
+}
+    .mobileImgdiv {
+        text-align: center;
+    }
+    .mobileImgdiv img {
+width: 150px;
+    }
+    .expsection2Right {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+    .section3ExploreHeight {
+    height: 300px;
+}
+    .section4ExploreBottom {
+        padding-top: 50px;
+    }
+     .section4ExploreBottom img {
+    transform: scale(1.5);
+    position: relative;
+    right: -32%;
+    border-radius: 50px 0px;
+}
+
+.section1exploreInput .customInputbutton button {
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+}
+    .section1Explore {
+
+    background-size: 180%;
+
+}
+    .mobileCard {
+        padding-top: 50px;
+    }
+    .section4Explore  {
+        overflow: hidden;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+h1.lite {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+   .section1ExploreHeight {
+    height: 100% !important;
+}
+   .section1exploreInput .input-group .form-control {
+
+    font-size: 11px;
+}
+    .section1exploreInput .input-group button {
+
+    font-size: 12px;
+}
+    .exploreCustomCard {
+    padding-left: 0px;
+    padding-bottom: 300px;
+}
+    .exploreCustomCard img {
+        width: 150px;
+    }
+  .section2explore {
+    margin-top: 0;
+    background-position: 105% 0%;
+      background-size: 250%;
+}
+    .exploremiddleClippath {
+
+    margin-top: 0px;
+}
+    .mobileImgdiv {
+        text-align: center;
+    }
+    .mobileImgdiv img {
+width: 150px;
+    }
+    .expsection2Right {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+    .section3ExploreHeight {
+    height: 300px;
+}
+    .section4ExploreBottom {
+        padding-top: 50px;
+    }
+     .section4ExploreBottom img {
+    transform: scale(1.5);
+    position: relative;
+    right: -32%;
+    border-radius: 50px 0px;
+}
+
+.section1exploreInput .customInputbutton button {
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+}
+    .section1Explore {
+
+background-size: 130%;
+}
+    .mobileCard {
+        padding-top: 50px;
+    }
+    .section4Explore  {
+        overflow: hidden;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .container-fluid {
+    padding: 0px 30px !important;
+}
+    .section1exploreInput .customInputbutton button {
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+}
+    h1.lite {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+    .section1ExploreHeight {
+    height: 800px;
+}
+    .exploreCustomCard {
+    padding-left: 0px;
+}
+    .section1Explore {
+        min-height: 1200px;
+    }
+    .exploremiddleClippath {
+
+    margin-top: 0px;
+}
+    .section2explore {
+
+background-size: 180%;
+
+background-position: 115% -4%;
+
+margin-top: 0px;
+}
+    .mobileImgdiv {
+    text-align: center;
+}
+    .mobileImgdiv img {
+width: 300px;
+    }
+    .mobileCard .content {}
+   .section2explore .mobileCard .content h4 {
+    font-size: 20px;
+}
+    .section2explore .mobileCard .content p {
+    font-size: 17px;
+}
+    .mobileCard {
+        padding-top: 50px;
+    }
+    .expsection2Right {
+    width: 100%;
+    text-align: center;
+}
+    .expsection2Right {
+        padding-top: 50px;
+    }
+    .expsection2Right h4 {
+    font-size: 20px;
+}
+    .expsection2Right p {
+    font-size: 16px;
+}
+    .expsection2Right .customButtonYello {
+    font-size: 14px;
+}
+    .section4ExploreBottom img {
+    transform: scale(1.5);
+    position: relative;
+    right: -32%;
+    border-radius: 50px 0px;
+}
+    .section4ExploreBottom {
+        padding-top: 100px;
+    }
+    .section4Explore  {
+        overflow: hidden;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .section1exploreInput .customInputbutton button {
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+}
+    h1.lite {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+    .section1ExploreHeight {
+    height: 800px;
+}
+    .exploreCustomCard {
+    padding-left: 0px;
+}
+    .section1Explore {
+        min-height: 1200px;
+        background-position: 0% 106%;
+    background-size: 90%;
+    }
+    .exploremiddleClippath {
+
+margin-top: -80px;
+}
+    .section2explore {
+
+background-size: 180%;
+
+background-position: 115% -20%;
+
+margin-top: 0px;
+}
+    .mobileImgdiv {
+    text-align: center;
+}
+    .mobileImgdiv img {
+width: 300px;
+    }
+    .mobileCard .content {}
+   .section2explore .mobileCard .content h4 {
+    font-size: 20px;
+}
+    .section2explore .mobileCard .content p {
+    font-size: 17px;
+}
+    .mobileCard {
+        padding-top: 50px;
+    }
+    .expsection2Right {
+    width: 100%;
+    text-align: center;
+}
+    .expsection2Right {
+        padding-top: 50px;
+    }
+    .expsection2Right h4 {
+    font-size: 20px;
+}
+    .expsection2Right p {
+    font-size: 16px;
+}
+    .expsection2Right .customButtonYello {
+    font-size: 14px;
+}
+    .section4ExploreBottom img {
+    transform: scale(1.5);
+    position: relative;
+    right: -32%;
+    border-radius: 50px 0px;
+}
+    .section4ExploreBottom {
+        padding-top: 100px;
+    }
+        .section4Explore  {
+        overflow: hidden;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) (max-width: 1339.98px){
+.footerLists a {
+        font-size: 14px;
+
+    }
+}
+
+@media (min-width: 1200px) (max-width: 1339.98px){
+
+}
