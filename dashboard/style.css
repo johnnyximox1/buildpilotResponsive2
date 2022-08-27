@@ -361,6 +361,10 @@ h1.dashboardTitle {
     .dashboard10sec1 .page10Scrollcontent a {
 width: 50%;
     }
+    .pageheight{
+        height: 100vh !important;
+    }
+
 }
 
 @media (min-width: 375px) and (max-width: 575.98px) {
@@ -397,6 +401,10 @@ width: 50%;
      .dashboard10sec1 .page10Scrollcontent a {
 width: 50%;
     }
+    .pageheight{
+        height: 100vh !important;
+    }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -429,6 +437,10 @@ width: 50%;
      .dashboard10sec1 .page10Scrollcontent a {
 width: 33.3%;
     }
+    .pageheight{
+        height: 100vh !important;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -466,6 +478,9 @@ width: 33.3%;
 width: 33.3%;
     }
     .dashboard13sec1 .pageheight{
+        height: 100vh !important;
+    }
+    .dashboard14sec1 .pageheight{
         height: 100vh !important;
     }
 
