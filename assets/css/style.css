@@ -1,8 +1,6 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 374.98px) {
- .navClass .navbar-brand img.logo {
-        width: 175px;
-    }
+
 }
 @media (min-width: 375px) and (max-width: 575.98px) {  }
 
@@ -17,12 +15,19 @@
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) (max-width: 1339.98px){
-.footerLists a {
-        font-size: 14px;
 
-    }
 }
 
-@media (min-width: 1200px) (max-width: 1339.98px){
+/*1400*/
+/*1400*/
+/*1400*/
+@media (min-width: 1400px) and (max-width: 1799.98px){
+
+}
+
+/*1400*/
+/*1400*/
+/*1400*/
+@media (min-width: 1800px) {
 
 }
