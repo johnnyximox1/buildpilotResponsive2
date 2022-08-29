@@ -1,19 +1,20 @@
 /* section one  */
+
+
 .section1Homeheight {
-    height: 100vh;
-/*    padding-bottom: 100px;*/
+    height: 110vh;
+    padding-bottom: 100px;
 }
 
 .section1 {
-    background-position: center 80%;
+    background-position: center 100%;
     background-size: cover;
-
 }
 
 .section1Home {
     background-repeat: no-repeat !important;
-    background-position: 5% 92%, right bottom !important;
-    background-size: 330px, 800px !important;
+    background-position: 5% 94%, 125% bottom !important;
+    background-size: 370px, 1000px !important;
     /*    margin-top: -90px;*/
 }
 
@@ -34,6 +35,9 @@
 .section1Home .textbewlowmark {
     text-align: right;
 }
+.headingHOme {
+    width:
+}
 
 /*section 2*/
 /*section 2*/
@@ -41,7 +45,9 @@
     padding-top: 100px;
 }
 
-.section2imagesDiv {}
+.section2imagesDiv {
+    padding-top: 70px;
+}
 
 .section2imagesDiv img {
     position: absolute;
@@ -107,7 +113,7 @@
 }
 
 .section2HomeHeight {
-    min-height: 750px;
+    min-height: 840px;
 }
 
 .section2Home .content h2 {
@@ -133,6 +139,10 @@
     position: absolute;
     bottom: 0;
     right: 0;
+}
+.section2Home .content h2 b{
+
+font-weight: 600;
 }
 
 /* section there  */
@@ -309,6 +319,10 @@
     height: 480px;
 
 }
+.section8Home .content {}
+.section8Home .content h2 b{
+font-weight: 600;
+}
 
 .section8 {
     -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
@@ -327,7 +341,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     margin-top: -5px;
 }
-
+.section9Home .para {
+padding-top: 30px;
+}
 /*###responsive###*/
 /*###responsive###*/
 /*###responsive###*/
@@ -1098,7 +1114,7 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) (max-width: 1339.98px){
+@media (min-width: 1200px) (max-width: 1399.98px){
  .section2HomeHeight {
     min-height: 550px;
 }
@@ -1116,9 +1132,10 @@
 }
 }
 
-/*1400*/
-/*1400*/
-/*1400*/
+/*1800*/
+/*1800*/
+/*1800*/
+
 @media (min-width: 1800px) {
 
 }

@@ -27,9 +27,7 @@ clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 .blogSeconeContent {
  padding-left: 150px;
 }
-.blogSeconeContent p{
-font-size: 20px;
-}
+.blogSeconeContent p{font-size: 20px;padding-top: 30px;}
 /*
 .blogsecOneImg img{
     position: absolute;

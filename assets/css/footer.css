@@ -1,5 +1,13 @@
+.footericons {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 footer img.logo {
     width: 200px;
+}
+footer ul.nav li.nav-item  a.nav-link{
+    color: #B9BABB !important;
 }
 .footericons a i{
     color: #706F6F;
@@ -14,6 +22,8 @@ color: #706F6F;
 color: #706F6F;
    text-decoration: none;
 }
+
+
 
 
 /* Extra small devices (portrait phones, less than 576px)*/

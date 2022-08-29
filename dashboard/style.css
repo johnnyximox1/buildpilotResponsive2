@@ -1,3 +1,7 @@
+.container-fluid {
+    padding: 0px 100px !important;
+}
+
 /*dashboard page 1*/
 /*dashboard page 1*/
 /*dashboard page 1*/
@@ -5,7 +9,11 @@
     margin-top: -80px;
     /*    background-position: center 85%;*/
 }
-
+.dashboard_1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+}
 .bgPosition {
     background-position: center 85%;
 }
@@ -95,7 +103,9 @@
 }
 
 .dashboard2sec1 {
-    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
 }
 
 .dashboardTopPadding {

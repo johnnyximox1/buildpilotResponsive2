@@ -1,3 +1,25 @@
+.section3Explore .content {
+
+padding-bottom: 50px;
+}
+
+.section4Explore .content{}
+.section4Explore .content h3 {}
+.section4Explore .content .para{
+    padding-top: 30px;
+}
+.customButtonYello:hover {
+    border: 2px solid #FFBD59;
+}
+
+.section1Explore h1.lite {
+
+    font-weight: 400;
+}
+.section1Explore h1.lite b{
+
+font-weight: 500;
+}
 #section1Explore {
 /*    margin-top: -90px;*/
 
@@ -62,10 +84,10 @@ clip-path: polygon(0 4%, 100% 70%, 100% 100%, 0 100%);
     background-image: url(../../img/explore/section2bg.png);
     background-repeat: no-repeat;
     background-size: 85%;
-    background-position: left top;
+    background-position: left 10%;
     margin-top: -100px;
     position: relative;
-padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .expsection2left {
@@ -87,14 +109,17 @@ padding-bottom: 50px;
 
 .section2explore .mobileCard .content h4 {
     font-size: 16px;
+    padding-top: 25px;
 }
 
 .section2explore .mobileCard .content p {
     font-size: 13px;
+    padding-top: 10px;
 }
 
 .expsection2Right .customButtonYello {
     font-size: 12px;
+    padding: 15px 10px;
 }
 
 
@@ -103,7 +128,7 @@ padding-bottom: 50px;
 
 /*section three*/
 .section3ExploreHeight {
-    height: 350px;
+    height: 370px;
 }
 .section3Explore{-webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
 clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);}
@@ -522,13 +547,27 @@ width: 300px;
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) (max-width: 1339.98px){
+@media (min-width: 1200px) (max-width: 1399.98px){
 .footerLists a {
         font-size: 14px;
 
     }
 }
 
-@media (min-width: 1200px) (max-width: 1339.98px){
+/*1400*/
+/*1400*/
+/*1400*/
+@media (min-width: 1400px) and (max-width: 1799.98px){
+    .colorThemeYello{
+            font-size: 28px;
+
+    }
+}
+
+/*1800*/
+/*1800*/
+/*1800*/
+
+@media (min-width: 1800px) {
 
 }

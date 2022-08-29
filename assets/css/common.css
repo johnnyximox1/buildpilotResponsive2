@@ -1,3 +1,4 @@
+
 .colorThemeYello {
     color: #FFBD59;
 }
@@ -23,7 +24,7 @@
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 60px;
     margin-bottom: 0px;
 }
 
@@ -61,6 +62,7 @@ h3 {
     border: none;
     border-radius: 0;
     height: 50px;
+    border: 2px solid white;
 }
 
 .customButtonYello {
@@ -85,6 +87,7 @@ h3 {
     border: none;
     border-radius: 0;
     height: 50px;
+    font-weight: 600;
 }
 
 .customButtonGreen:hover {
@@ -132,7 +135,10 @@ h3 {
 }
 
 .blogInside .content {}
-
+ .custompaddingforOWL {
+padding: 0 0px !important;
+     overflow: hidden;
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 374.98px) {
