@@ -12,3 +12,17 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);
     color: black;
 
 }
+.footersvg  svg{
+height: 20px;
+    width: 20px;
+    fill:white;
+}
+
+.footerContent .nav-item      a.nav-link svg {
+fill:white;
+}
+.footerContent .nav-item      a.nav-link:hover svg path{
+fill:black;
+}
+
+.footersvg  svg{}
