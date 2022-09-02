@@ -18,16 +18,43 @@ header .nav-link:hover {
 /*    color: #FFBD59 !important;*/
     color: black !important;
 }
+ .navbar-toggler {
+        border: none;
+    }
 
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-toggler[aria-expanded="true"]  #customNav{
+        background: white;
+    }
+    .offcanvasLogo a img{
+ width: 150px;
+    }
+    .offcanvas .nav-item .nav-link {
+        color: black;
+        padding-left: 0px;
+    }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 374.98px) {
  .navClass .navbar-brand img.logo {
-        width: 175px;
+        width: 140px;
     }
-    nav.navClass {
-    padding-top: 15px !important;
+   nav.navClass {
+    padding-top: 40px !important;
 }
+
+
+
 }
 @media (min-width: 375px) and (max-width: 575.98px) {
 .navClass .navbar-brand img.logo {

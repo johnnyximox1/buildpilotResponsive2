@@ -1,11 +1,23 @@
 /* section one  */
 
-
+.customButtonWhite:hover {
+    background: #FFBD59;
+    color: white;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    border: 0px solid white;
+}
 .section1Homeheight {
-    height: 110vh;
+    height: 1080px;
     padding-bottom: 100px;
 }
-
+.logintext strong a{
+    color: black;
+}
+.logintext strong a:hover{
+    color: #FFBD59;
+}
 .section1 {
     background-position: center 100%;
     background-size: cover;
@@ -23,8 +35,12 @@
     font-weight: 500;
     color: white;
 }
-
-
+.headingHOme .contentimg {
+text-align: right;
+}
+.headingHOme .contentimg img {
+margin-top: -13px;
+}
 
 
 
@@ -283,7 +299,6 @@ font-weight: 600;
 
 .widthSecHome5Right p {
     font-size: 20px;
-
 }
 
 .widthSecHome5Right .widthSecHome5RightButton button {
@@ -344,11 +359,24 @@ font-weight: 600;
 .section9Home .para {
 padding-top: 30px;
 }
+
+
+/*###responsive###*/
+/*###responsive###*/
+/*###responsive###*/
+/*###responsive###*/
+/*###responsive###*/
+/*###responsive###*/
+/*###responsive###*/
 /*###responsive###*/
 /*###responsive###*/
 /*###responsive###*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 374.98px) {
+
+
+
+
     .container-fluid {
         padding: 0px 10px !important;
     }
@@ -358,7 +386,7 @@ padding-top: 30px;
     .section1Homeheight {
         height: 780px !important;
         display: block;
-        margin-top: 50px;
+        margin-top: 140px;
     }
 
     h1 {
@@ -367,13 +395,13 @@ padding-top: 30px;
 
     .section1Home {
         background-repeat: no-repeat !important;
-        background-position: 15% 80%, right bottom !important;
-        background-size: 120px, 390px !important;
+        background-position: 15% 80%, 0% bottom !important;
+        background-size: 135px, 500px !important;
         /* margin-top: -90px; */
     }
 
     nav.navClass {
-        padding-top: 15px !important;
+        /* padding-top: 40px !important; */
     }
 
     .section2Home .content h2 {
@@ -433,18 +461,18 @@ padding-top: 30px;
 
 
     .section3 .titleboxSVG img {
-        height: 30px;
-        width: 30px;
+        height: 26px;
+        width: 26px;
         cursor: pointer;
-
     }
 
     .nav-pills li.nav-item .nav-link {
 
-        margin: 5px;
-        padding: 8px 8px;
+margin: 3px;
 
-    }
+padding: 6px 6px;
+
+}
 
     .tabInsidecontent p {
         font-size: 14px;
@@ -495,17 +523,18 @@ padding-top: 30px;
 
     .widthSecHome5Right p {
         font-size: 16px;
+        padding-top: 25px;
     }
 
     .section5HomeHeight {
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
     .section8 {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         background: #55AFF6;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .section9 {
@@ -530,6 +559,52 @@ padding-top: 30px;
         right: -32%;
         border-radius: 50px 0px;
     }
+
+
+.headingHOme .contentimg img {
+    margin-top: -20px;
+    width: 170px;
+}
+
+.headingHOme .contentimg {
+    text-align: center;
+}
+      .customButtonYello{
+    /* color: #FFBD59; */
+    /* background: white; */
+    border: none;
+    border-radius: 0;
+    height: 35px;
+}
+.customButtonWhite:hover {
+    background: #FFBD59;
+    color: white;
+    border: none;
+    border-radius: 0;
+    height: 35px;
+    border: 0px solid white;
+}
+    .customButtonYello:hover {
+    color: #FFBD59;
+    background: white;
+    border: none;
+    border-radius: 0;
+    height: 35px;
+}
+    .tabInsidecontent h3{
+        display: none;
+    }
+    .tabInsidecontent p{
+       padding-top: 20px;
+       font-size:  12px;
+       font-weight: 600;
+    }
+    .widthSecHome5left h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+    .section8Home .content .row {}
 }
 
 @media (min-width: 375px) and (max-width: 575.98px) {
@@ -674,15 +749,23 @@ padding-top: 30px;
 
     .widthSecHome5left h3 {
         color: white;
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .widthSecHome5left  h3 strong{
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     .widthSecHome5Right p {
         font-size: 16px;
+        padding-top: 25px;
     }
 
     .section5HomeHeight {
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .section8 {

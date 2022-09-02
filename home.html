@@ -56,11 +56,44 @@
 
 <body>
 
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <div class="offcanvasLogo">
+            <a href="home.html"><img src="assets/img/logoblack.png" class="img-fluid" alt=""></a>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">RESOURCES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PREMIUM</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Explore Home</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Dashboard</a></li>
+
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
    <header class="fixed-top">
-            <nav class="navbar navbar-expand-lg navbar-light  navClass fluidgap">
+            <nav class="navbar navbar-expand-lg navbar-light  navClass fluidgap" id="customNav">
                 <div class="container-fluid ">
                     <a class="navbar-brand" href="home.html"><img src="assets/img/logo.png" class="logo" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button"    aria-label="Toggle navigation" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -119,7 +152,7 @@
                            <div class="headingHOme">
                                 <h1>Welcome To Your </h1>
                             <h1>Home Building Companion. </h1>
-                              <div class=" text-end">
+                              <div class="contentimg">
                                 <img src="assets/img/flow.png" class="text-right img-fluid" alt="">
                             </div>
                            </div>
@@ -154,7 +187,7 @@
                             </div>
 
                             <div class="mt-5 mt-sm-4">
-                                <p class="fontSm13">Alreadyhave anaccount? <strong><a href="btn-link color-dark"> Login</a></strong></p>
+                                <p class="fontSm13 logintext">Alreadyhave anaccount? <strong><a href="btn-link"> Login</a></strong></p>
                             </div>
                         </div>
                     </div>
@@ -517,8 +550,13 @@
                         <div class="row">
                             <div class="col-lg-5">
                                 <div class="widthSecHome5left ">
-                                    <h3>The BuildOS that helps </h3>
+                                    <div class="d-none d-sm-block">
+                                        <h3>The BuildOS that helps </h3>
                                     <h3>you focus onexcitement. </h3>
+                                    </div>
+                                    <div class="d-block d-sm-none">
+                                        <h3>The BuildOS that helps you focus on <strong>excitement</strong>. </h3>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -758,7 +796,7 @@
                         <div class=" text-center align-items-center content">
                             <h2 class="text-white">Start your home building journey with <b>buildpilot.com.au</b></h2>
 
-                            <div class="row mt-5 justify-content-center px-5">
+                            <div class="row mt-5 justify-content-center px-4 reverseSm">
                                 <div class="col-md-6">
                                     <div class="text-center ">
                                         <div class="d-grid gap-2">
